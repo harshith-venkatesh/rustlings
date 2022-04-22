@@ -11,7 +11,12 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_apple_price {
+fn calculate_apple_price(quantity:i32) -> i32 {
+    let apple_price_for_less_than_equal_to_forty = 2;
+    if quantity<=40 {
+        return quantity*apple_price_for_less_than_equal_to_forty
+    } return quantity
+}
 
 // Don't modify this function!
 #[test]
